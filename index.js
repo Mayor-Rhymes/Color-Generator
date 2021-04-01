@@ -13,7 +13,7 @@ but.addEventListener("click", function(){
 
 
     body.style.backgroundColor = simpleColors[getRandomer()];
-    dros.textContent = simpleColors[getRandomer()];
+    dros.textContent = body.style.backgroundColor;
 
 
     
